@@ -5,46 +5,68 @@
     height: 100px;
 
 }
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 .container
 {
-    max-width: 955px;
+
+    max-width: 700px;
+    border: 2px solid black;
     background-color: white;
     margin: auto;
     height: 60vh;
-    border: 2px solid black;
     border-radius: 6px; 
     padding: 33px;
-    overflow-y: auto;
+    overflow-y: scroll;
     margin-bottom: 23px;
 }
 
 .message{
-    background: rgb(245, 176, 151);
-    width: 24%;
+
+    background: linear-gradient(45deg, coral, transparent);
+    width: 85%;
     padding: 10px;
-    margin: 17px 12px;
-    border: 2px solid black ;
+    margin: 27px auto;
+    border: 2px solid black;
     border-radius: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+
    
 
 }
-.right{float: right;
+.right{
+    float: right;
     clear: both;
+    
+        
+   
 }
     
-.left{float: left;
+.left{
+    float: right;
     clear: both;
+    
+    
+   
+   
 }
 #send-container
 {
     display: block;
     margin: auto;
-    max-width: 985px;
+    max-width: 700px;
     text-align: center;
 
 }
 #messageInp{
-    width: 93%;
+    width: 90%;
     border: 2px solid black;
     border-radius: 6px;
     height: 34px;
